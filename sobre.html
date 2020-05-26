@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MayBank</title>
+    <link rel="icon" href="img/favicon.png">
+     <!-- redirect HTTPS -->
+     <script src="js/redirect.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- themify CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- fontawesome CSS -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <!-- magnific CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/gijgo.min.css">
+    <!-- niceselect CSS -->
+    <link rel="stylesheet" href="css/nice-select.css">
+    <!-- slick CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <script>
+        function mostraFecha()
+        {
+          var estado = document.getElementById("cadastro").style.display;
+
+          document.getElementById("cadastro").style.display = (estado == "none") ? "block" : "none";
+
+        }    
+
+    </script>
+    <!--cadastro-->
+    <div id = "cadastro" onclick="mostraFecha()" style="z-index: 9999999; background-color: rgba(0,0,0,0.3); width: 100%; height: 100%; position:fixed; display: none;">
+        <div style="position: absolute;margin-left: -207px; margin-top:-368px ; top:50%; left:50%; height: 736px; width: 414px;">
+          <p style = "color:white; position: absolute; top:40%; left:13%;">Pessoa</p>
+            <img src="img/maybank/cadastro.png" alt="#">
+            <span style="position: absolute; top:46%; left:11%; cursor: pointer;">
+                <a href="https://acessoaconta.com.br/Cadastro/maybank/PessoaFisica/eyJjb2RfcHJvZHV0byI6MzQ3LCJ0aXBvIjoicGYifQ==" class="btn_2  d-lg-block" style = "padding: 25px; width: 320px; text-align: center; border-radius: 5px; color:white">Física</a>
+            </span> 
+            <span style="position: absolute; top:58%; left:12%; cursor: pointer;"> 
+                <a href="https://acessoaconta.com.br/Cadastro/maybank/PessoaJuridica/eyJjb2RfcHJvZHV0byI6MzQ3LCJ0aXBvIjoicGoifQ==" class="btn_2  d-lg-block" style = "padding: 25px; width: 320px; text-align: center; border-radius: 5px; color:white">Jurídica</a>
+            </span>
+        </div>
+    </div>
+   <!--::header part start::-->
+   <header class="main_menu">
+        
+    <div class="main_menu_iner">
+        <div class="container">
+            <div class="row align-items-center ">
+        <div class="col-xl-12 col-lg-12 col-md-4">
+                    <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+                        <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo" height="80"> </a>
+                        <button href="https://acessoaconta.com.br/Login/maybank" class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation" style = "position: absolute; top: 20px; right: 0;">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item justify-content-center"
+                            id="navbarSupportedContent" >
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="white_label.html">White Label</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="arranjos.html">Arranjos de Pagamentos</a>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="conta.html">Conta Digital</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="maquinas.html">Maquinas de Cartões</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sobre.html">Sobre a MayBank</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contato</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="navbar-toggler " href="https://acessoaconta.com.br/Login/maybank" style ="color: #014705;  font-size: 12px; font-family: 'Open Sans', sans-serif; text-transform: capitalize;">
+                                        Login
+                                    </a>
+                                </li>
+                                <li class="nav-item" style="padding-bottom: 25px !important;">
+                                    <a class="navbar-toggler " href="#" onclick="mostraFecha()" style ="color: #014705;   font-size: 12px; font-family: 'Open Sans', sans-serif; text-transform: capitalize;">
+                                        Abrir Conta
+                                    </a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a href="https://acessoaconta.com.br/Login/maybank" class="btn_2 d-none d-lg-block" style="margin-top:20px;">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" onclick="mostraFecha()" class="btn_1 d-none d-lg-block" style="margin-top:20px;">Abrir Conta</a>
+                                </li> -->
+                                <!-- <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Mais
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="sobre.html">Sobre a MayBank</a>
+                                        <a class="dropdown-item" href="contact.html">Contato</a>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="https://acessoaconta.com.br/Login/maybank" class="btn_2 d-none d-lg-block">Login</a>
+                            </li> 
+                            <li class="nav-item">
+
+                                    <a class="navbar-toggler " href="#" onclick="mostraFecha()" style ="color: #014705;   font-size: 12px; font-family: 'Open Sans', sans-serif; text-transform: capitalize;"></a>
+                                <a href="#" onclick="mostraFecha()" class="btn_1 d-none d-lg-block" style="width:118px;">Abrir Conta</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <!-- Header part end-->
+
+    <!-- breadcrumb start-->
+    <section class="breadcrumb breadcrumb_bg" style = "background-image: url(img/maybank/sobreImg.jpg)">
+      <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                        <div class="breadcrumb_iner">
+                              <div class="breadcrumb_iner_item text-center">
+                                    <h2>Sobre</h2>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      </section>
+      <!-- breadcrumb start-->
+
+      <section class="blog_area single-post-area section_padding">
+        <div class="container"  style=" padding: 40px;">
+            <div class="row">
+                <h2><b style = "color:#0BB318;">SOBRE A MAYBANK</b></h2>
+                <BR><P>O Grupo MAY que integra as empresas, MAYBANK, MAYPAY, MAYEXCHANGE, MAYCRED, MAYPASS foram criadas e desenvolvidas para atender as demandas do mercado financeiro com soluções integradas, e que prezam por solidez e credibilidade.</P>
+                <BR><P>Com fundos mistos internacionais, e com garantias lastreadas em títulos emitidos pelo consorcio de bancos internacional que tem reservas em ouro.</P>
+                    <BR><BR><P>O MayBank é uma plataforma de meios eletrônicos de pagamentos focada em soluções para pessoas físicas, jurídicas, e soluções em projetos B2B2C, que desenvolve soluções financeiras em parceria com empresas que já possuam um ecossistema financeiro estabelecido além de fornecer para pessoas físicas soluções financeiras que simplificam o dia a dia.</P>
+                <BR><P>A proposta é simples: ofertar ao parceiro uma solução que envolva Captura de Transações (Sub-Adquirência via POS / TEF) e Digital Bank. Além de cambio e credito explorando o histórico comercial e a relação de confiança agregados.</P>
+                <BR><P>Quanto mais complexa a rede de relacionamento (revendedores, distribuidores, franqueados, fornecedores, clientes recorrentes, funcionários, etc.) maior o potencial do projeto, pois, as transações financeiras entre as partes são realizadas dentro do Arranjo de Pagamento (On-Us), sem intermediação bancária ou de Bandeiras e Adquirentes, o que reduz o custo destas operações.</P>
+                <BR><P style="margin-top:20px;">A plataforma da MayBank possui as seguintes características:</P>
+            
+                <ul  style="list-style: outside; padding-left: 35px;">
+                    <li>Em conformidade com a regulamentação do Banco Central N° 3.765, sendo integrada com a CIP (Câmara Interbancária de Pagamentos), de forma que todo o fluxo de pagamentos é monitorado pelo BACEN e liquidado na CIP. Esta característica faz com que o Estabelecimento Comercial tenha garantia que irá receber os valores devidos.</li>
+                    <br><li>Em concordância com lei N° 12.865/2013, que regulamenta os Arranjos de Pagamentos.</li>
+                    <br><li>Certificada PCI, isto quer dizer que está de acordo com as normas e regras estabelecidas por empresas como Discover Financial Services, JCB International, Visa e MasterCard, visando proporcionar um ambiente seguro para transações em cartões de débito e crédito.</li>
+                </ul>
+            </div>
+        </div>
+        </section>
+        <section class="breadcrumb breadcrumb_bg"  style = "background-image: url(img/maybank/sobreImg.jpg)">
+            <div class="container">
+                  <div class="row">
+                        <div class="col-lg-12">
+                              <div class="breadcrumb_iner">
+                                    <div class="breadcrumb_iner_item text-center" >
+                                          <h2 style= "color: white; font-size: 63px">ENTRE EM CONTATO</h3>
+                                          <h3 style= "color: white">Veja o que nossa soluções podem oferecer a sua empresa</h4>
+                                          <br>
+                                            <div style="width: 250px; position: absolute; left:50%; margin-left: -125px;">
+                                                <a href="#" onclick="mostraFecha()" class="btn_1 d-none d-lg-block">Abrir Conta</a>
+                                            </div>
+
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            </section>
+    
+
+    <!-- footer part start-->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-sm-6 col-md-4">
+                    <div class="single-footer-widget">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="index.html">Home                 </a></li>
+                            <!-- <li><a href="white_label.html">White Label            </a></li>
+                            <li><a href="arranjos.html">Arranjos De Pagamentos                 </a></li> -->
+                            <li><a href="conta.html">ContaDigital                </a></li>
+                            <li><a href="maquinas.html">Maquinas de Cartão    </a></li>
+                            <li><a href="sobre.html">Sobre        </a></li>
+                            <li><a href="contact.html">Contato           </a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="single-footer-widget" style = "text-align: center;">
+                        <img src="img/maybank/logobranco.png" alt="#">
+                        <br>
+                        
+                        <br>
+                        <p style ="font-size: 12px; text-align: center;"> MayBank © 2019. </p>
+                       
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="single-footer-widget footer_icon">
+                        <h4 style = "text-align: center;">Contato</h4>
+                        <p style = "text-align: center;"> Tel  11. 2450-7469</p>
+                        <p style = "text-align: center;">Av. Paulista, 1765 - 7ºandar / Conj. 72 </p>
+                        <p style = "text-align: center;">Bela Vista - São Paulo/SP - CEP. 01311-200</p>
+                        <!-- <div class="social-icons" style = "text-align: center;">
+                            <a href="#"><i class="ti-facebook"></i></a>
+                            <a href="#"><i class="ti-twitter-alt"></i></a>
+                            <a href="#"><i class="ti-pinterest"></i></a>
+                            <a href="#"><i class="ti-instagram"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer part end-->
+
+    <!-- jquery plugins here-->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- magnific js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- masonry js -->
+    <script src="js/masonry.pkgd.js"></script>
+    <!-- masonry js -->
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <!-- contact js -->
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/contact.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
